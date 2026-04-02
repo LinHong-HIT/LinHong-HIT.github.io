@@ -28,7 +28,7 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 <h2 id="publications">Publications</h2>
 
 {% if site.author.googlescholar %}
-<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">You can also find my full peer-review papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% for post in site.publications reversed %}
