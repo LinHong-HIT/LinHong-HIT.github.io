@@ -76,10 +76,10 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 
 <h2 id="awards">Awards</h2>
 
-- **2025** Best Paper Award, The 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025)
-- **2024** Outstanding Ph.D. Student Award at Harbin Institute of Technology
-- **2023** National Scholarship for Graduate Students
-- **2022** Outstanding Ph.D. Student Award at Harbin Institute of Technology
-- **2021**Outstanding Student Cadre Award at Harbin Institute of Technology, 2021.
-- **2020** National Scholarship for Graduate Students
+- **2025** Best Paper Award, The 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
+- **2024** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
+- **2023** National Scholarship for Graduate Students.
+- **2022** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
+- **2021** Outstanding Student Cadre Award at Harbin Institute of Technology, 2021.
+- **2020** National Scholarship for Graduate Students.
 
