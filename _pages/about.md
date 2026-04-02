@@ -10,9 +10,9 @@ redirect_from:
 
 <div id="biography"></div>
 
-I am a Postdoctoral Research Fellow in Cheng Kar-Shun Robotics Institute (CKSRI) and Department of Electrical and Computer Engineering, the Hong Kong University of Science and Technology (HKUST), collaborating with [Prof. Fumin Zhang](https://fumin-home.hkust.edu.hk/).
+I am a Postdoctoral Research Fellow in Cheng Kar-Shun Robotics Institute (CKSRI) and Department of Electrical and Computer Engineering, the Hong Kong University of Science and Technology (HKUST), collaborating with [Chair Professor Fumin Zhang](https://fumin-home.hkust.edu.hk/).
 
-I obtained my Ph.D. degree in Robotic Engineering from the Harbin Institute of Technology (Shenzhen), under the supervision of [Prof. Xin Wang](https://homepage.hit.edu.cn/wangxin). From 2023 to 2024, I had joint training at the Chair of Robotics, AI, and Real-Time Systems at the Technical University of Munich, Germany, working under the guidance of [Prof. Alois Knoll](https://www.professoren.tum.de/en/knoll-alois-christian/). I received National Scholarships for Graduate Students in 2020 and 2023 and won the Best Paper Award at the 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
+I obtained my Ph.D. degree in Robotic Engineering from the Harbin Institute of Technology (Shenzhen), under the supervision of [Prof. Xin Wang](https://homepage.hit.edu.cn/wangxin). From 2023 to 2024, I had joint training at the Chair of Robotics, AI, and Real-Time Systems at the Technical University of Munich, Germany, working under the guidance of [Chair Professor Alois Knoll](https://www.professoren.tum.de/en/knoll-alois-christian/). I received National Scholarships for Graduate Students in 2020 and 2023 and won the Best Paper Award at the 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
 
 My research interests are centered on marine robotics, robotic vision, and deep reinforcement learning. Welcome to contact me for academic collaboration in the field of marine robotics at eelinhong@ust.hk.
 
@@ -22,7 +22,7 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - **03/26** 👏 One paper was accepted by **ICRA 2026**.
 - **02/26** 👏 One paper was accepted by **IEEE Robotics and Automation Letters**.
 - **10/25** 👏 One paper was accepted by **Annual Review of Control, Robotics, and Autonomous Systems**.
-- **08/25** 👏 One paper was accepted by **ICIRA 2025**, it also win the **Best Paper Award** 🏆.
+- **08/25** 👏 One paper was accepted by **ICIRA 2025**, it also won the **Best Paper Award** 🏆.
 - **07/25** 👏 One paper was accepted by **Ocean Engineering**.
 
 <h2 id="publications">Publications</h2>
