@@ -7,6 +7,6 @@ authors: "Ao Meng†, Lin Hong†, Yunxuan Feng, Zijie Ling, Xin Li, Liang Hu*"
 venue: "IEEE Robotics and Automation Letters (2026)"
 image: "/images/RAL.png"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/11394786"
-bibtexurl: "https://github.com/Ice-mao/RL_AUV_tracking"
+codeurl: "https://github.com/Ice-mao/RL_AUV_tracking"
 videourl: "https://www.youtube.com/watch?v=Gn3o9PeteMo"
 ---
