@@ -37,14 +37,10 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 
 <h2 id="talks">Invited Talks</h2>
 
-<ol>
-  <li>
-   **08.09.2023** “USOD10K: a new benchmark dataset for underwater salient object detection” in College of Ocean Science and Engineering, Shandong University of Science and Technology.
-  </li>
-  <li>
-   **02.01.2024** “Advancing Visual Perception and Control of Underwater Robots for Efficient Underwater Inspections” in Chair of ITR, Technical University of Munich.
-  </li>
-</ol>
+<ul>
+  <li><strong>08.09.2023</strong> “USOD10K: a new benchmark dataset for underwater salient object detection” in College of Ocean Science and Engineering, Shandong University of Science and Technology..</li>
+  <li><strong>02.01.2024</strong> “Advancing Visual Perception and Control of Underwater Robots for Efficient Underwater Inspections” in Chair of ITR, Technical University of Munich.</li>
+</ul>
 
 <h2 id="teaching">Student Supervision</h2>
 
