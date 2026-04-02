@@ -6,7 +6,7 @@ date: 2023-01-01
 authors: "Lin Hong, Xin Wang*, Desheng Zhang, Ming Zhao, Hang Xu"
 venue: "IEEE Transactions on Intelligent Vehicles 9, no. 1 (2023): 2197-2209"
 image: "/images/TIV.png"
-paperurl: ""
+paperurl: "https://ieeexplore.ieee.org/abstract/document/10324358"
 bibtexurl: ""
 videourl: ""
 ---
