@@ -79,27 +79,28 @@ html {
 }
 
 .publication__title {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.35;
+  margin: 0 0 0.1rem 0;
+  line-height: 1.4;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-.publication__authors,
-.publication__venue,
-.publication__excerpt,
-.publication__citation,
-.publication__links {
-  margin: 0 0 0 0;
-}
-
 .publication__authors {
+  margin: 0 0 0.1rem 0;
+  line-height: 1.4;
   font-weight: 500;
 }
 
 .publication__venue {
+  margin: 0 0 0.2rem 0;
+  line-height: 1.4;
   font-style: italic;
+}
+
+.publication__excerpt,
+.publication__citation,
+.publication__links {
+  margin: 0;
 }
 
 .publication__links a {
