@@ -19,8 +19,9 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 <h2 id="news">News</h2>
 
 - **03/26** 👏👏👏 One paper was accepted by **OCEANS 2026** as an oral paper. I will present it in Sanya.
-- Example: One paper accepted by **Conference/Journal Name**, 2026.
-- Example: Started as a Postdoctoral Research Fellow at **HKUST**, 2025.
+- **03/26** 👏👏👏 One paper was accepted by **ICRA 2026**.
+- **02/26** 👏👏👏 One paper was accepted by **IEEE Robotics and Automation Letters**.
+- 
 
 <h2 id="publications">Publications</h2>
 
