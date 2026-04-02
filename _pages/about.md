@@ -25,32 +25,15 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - **08/25** 👏 One paper was accepted by **ICIRA 2025**, it also win the **Best Paper Award** 🏆.
 - **07/25** 👏 One paper was accepted by **Ocean Engineering**.
 
-<h2 id="publications">Selected Publications</h2>
+<h2 id="publications">Publications</h2>
 
 {% if site.author.googlescholar %}
 <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-<h3>{{ category[1].title }}</h3>
-<hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 <h2 id="talks">Talks</h2>
 
@@ -74,12 +57,14 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - Example: Reviewer for **IEEE T-RO / ICRA / IROS**.
 - Example: Session chair / organizer / committee member.
 
-<h2 id="awards">Awards</h2>
+<div id="awards"></div>
+
+## Awards
 
 - **2025** Best Paper Award, The 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
 - **2024** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
 - **2023** National Scholarship for Graduate Students.
 - **2022** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
-- **2021** Outstanding Student Cadre Award at Harbin Institute of Technology, 2021.
+- **2021** Outstanding Student Cadre Award at Harbin Institute of Technology.
 - **2020** National Scholarship for Graduate Students.
 
