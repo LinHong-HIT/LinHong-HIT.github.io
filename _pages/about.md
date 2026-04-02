@@ -35,27 +35,46 @@ My research interests are centered on marine robotics, robotic vision, and deep 
   {% include archive-single.html %}
 {% endfor %}
 
-<h2 id="talks">Talks</h2>
+<h2 id="talks">Invited Talks</h2>
 
-{% if site.talkmap_link == true %}
-<p><a href="/talkmap.html">See a map of all the places I've given a talk.</a></p>
-{% endif %}
+<ol>
+  <li>
+    “USOD10K: a new benchmark dataset for underwater salient object detection” in College of Ocean Science and Engineering, Shandong University of Science and Technology (08.09.2023).
+  </li>
+  <li>
+    “Advancing Visual Perception and Control of Underwater Robots for Efficient Underwater Inspections” in Chair of ITR, Technical University of Munich (02.01.2024).
+  </li>
+</ol>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<h2 id="teaching">Student Supervision</h2>
 
-<h2 id="teaching">Teaching</h2>
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul>
+  <li><strong>2025–Present</strong> Student Name, Undergraduate Student, HKUST. Research topic: Marine robotics / underwater perception.</li>
+  <li><strong>2024–Present</strong> Student Name, Master Student, HKUST. Research topic: Vision-based control for underwater robots.</li>
+  <li><strong>2023–2024</strong> Student Name, Undergraduate Student, HIT Shenzhen. Research topic: Underwater salient object detection.</li>
+</ul>
 
 <h2 id="services">Services</h2>
 
-- Add your professional services here.
-- Example: Reviewer for **IEEE T-RO / ICRA / IROS**.
-- Example: Session chair / organizer / committee member.
+<h3>Professional Contributions</h3>
+<ol>
+  <li>
+    Session Chair for "<em>Intelligent Perception and Control Technologies for Marine Robotic Systems</em>", 
+    The 18th International Conference on Intelligent Robotics and Applications (ICIRA), 
+    Okayama, Japan, 2025.
+  </li>
+  <li>
+    Reviewer for IEEE Transactions on Image Processing, IEEE Transactions on Industrial Informatics, 
+    IEEE Transactions on Automation Science and Engineering, IEEE Robotics and Automation Letters, 
+    Ocean Engineering, ICRA, IROS, ICIRA, and CASE.
+  </li>
+</ol>
+
+<h3>Memberships</h3>
+<ul>
+  <li>Member, IEEE (2025–present)</li>
+  <li>Member, Chinese Association for Artificial Intelligence (CAAI) (2023–2024)</li>
+</ul>
 
 <h2 id="awards">Awards</h2>
 
