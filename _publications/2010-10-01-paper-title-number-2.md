@@ -7,7 +7,7 @@ authors: "Lin Hong, Lu Liu, Zhouhua Peng, Fumin Zhang*"
 venue: "Annual Review of Control, Robotics, and Autonomous Systems, 9 (2025)"
 excerpt: "IF=14, Top, JCR Q1."
 image: "/images/Anualreview.png"
-paperurl: ""
+paperurl: "https://www.annualreviews.org/content/journals/10.1146/annurev-control-022723-033729"
 bibtexurl: ""
 videourl: ""
 ---
