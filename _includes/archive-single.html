@@ -1,144 +1,141 @@
-{% include base_path %}
+---
+---
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% elsif post.image %}
-  {% capture teaser %}{{ post.image }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
+@import
+    "vendor/breakpoint/breakpoint",
 
-{% if post.collection == 'publications' %}
-<div class="list__item publication__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="publication__layout">
-      <div class="publication__image">
-        {% if teaser %}
-          <img
-            src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: base_path }}{% endif %}"
-            alt="{{ post.title }}">
-        {% endif %}
-      </div>
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-      <div class="publication__body">
-        <h2 class="archive__item-title publication__title" itemprop="headline">
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        </h2>
+    "include/mixins",
+    "vendor/susy/susy",
 
-        {% if post.authors %}
-          <p class="publication__authors">{{ post.authors }}</p>
-        {% endif %}
+    "layout/reset",
+    "layout/base",
 
-        {% if post.venue %}
-          <p class="publication__venue"><em>{{ post.venue }}</em></p>
-        {% elsif post.date %}
-          <p class="publication__venue"><em>{{ post.date | default: "1900-01-01" | date: "%Y" }}</em></p>
-        {% endif %}
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-        {% if post.excerpt %}
-          <p class="publication__excerpt" itemprop="description">
-            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-          </p>
-        {% endif %}
+    "layout/forms",
 
-        {% if post.citation %}
-          <p class="publication__citation">
-            Recommended citation: {{ post.citation }}
-          </p>
-        {% endif %}
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-        <p class="publication__links">
-          {% assign has_link = false %}
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
 
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}">PDF</a>
-            {% assign has_link = true %}
-          {% endif %}
+/* smooth scrolling for one-page navigation */
+html {
+  scroll-behavior: smooth;
+}
 
-          {% if post.codeurl %}
-            {% if has_link %} | {% endif %}
-            <a href="{{ post.codeurl }}">Code</a>
-            {% assign has_link = true %}
-          {% elsif post.bibtexurl %}
-            {% if has_link %} | {% endif %}
-            <a href="{{ post.bibtexurl }}">Code</a>
-            {% assign has_link = true %}
-          {% endif %}
+/* prevent anchor targets from being covered by the fixed header */
+.page__content h2[id],
+.page__content h3[id],
+.page__content div[id] {
+  scroll-margin-top: 90px;
+}
 
-          {% if post.videourl %}
-            {% if has_link %} | {% endif %}
-            <a href="{{ post.videourl }}">Video</a>
-            {% assign has_link = true %}
-          {% endif %}
+/* publication cards */
+.publication__item {
+  margin-bottom: 2rem;
+}
 
-          {% if post.slidesurl %}
-            {% if has_link %} | {% endif %}
-            <a href="{{ post.slidesurl }}">Slides</a>
-            {% assign has_link = true %}
-          {% endif %}
+.publication__layout {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+}
 
-          {% if post.url %}
-            {% if has_link %} | {% endif %}
-            <a href="{{ base_path }}{{ post.url }}">Details</a>
-          {% endif %}
-        </p>
-      </div>
-    </div>
-  </article>
-</div>
+/* image and text each take half width */
+.publication__image,
+.publication__body {
+  flex: 0 0 calc(50% - 0.75rem);
+  max-width: calc(50% - 0.75rem);
+}
 
-{% else %}
-<div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: '/images/' | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+.publication__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+.publication__image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
 
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+/* right-side text block */
+.publication__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-    {% if post.collection == 'teaching' %}
-      <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-    {% elsif post.collection == 'talks' %}
-      <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-    {% elsif post.date %}
-      <p class="page__date">
-        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
-        <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
-      </p>
-    {% endif %}
+.publication__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
-      </p>
-    {% endif %}
-  </article>
-</div>
-{% endif %}
+.publication__authors,
+.publication__venue,
+.publication__excerpt,
+.publication__citation,
+.publication__links {
+  margin: 0 0 0.55rem 0;
+}
+
+.publication__authors {
+  font-weight: 500;
+}
+
+.publication__venue {
+  font-style: italic;
+}
+
+.publication__links a {
+  white-space: nowrap;
+}
+
+/* responsive layout */
+@media (max-width: 768px) {
+  .publication__layout {
+    flex-direction: column;
+  }
+
+  .publication__image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+}
+
+  .publication__image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+  }
+}
