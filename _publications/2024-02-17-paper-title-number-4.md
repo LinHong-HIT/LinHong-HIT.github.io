@@ -8,6 +8,6 @@ venue: "IEEE Transactions on Image Processing 34 (2023): 1602-1615"
 excerpt: "IF=13.7, Top, JCR Q1, Highly Cited Papers."
 image: "/images/TC-USOD.png"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/10102831"
-bibtexurl: ""
-videourl: "https://github.com/LinHong-HIT/USOD10K"
+codeurl: "https://github.com/LinHong-HIT/USOD10K"
+videourl: ""
 ---
