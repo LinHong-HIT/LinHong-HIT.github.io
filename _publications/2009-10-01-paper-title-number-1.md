@@ -1,5 +1,5 @@
 ---
-title: "Control of Marine Robots in the Era of Data-Driven Intelligence"
+title: "UTracker: Learning Visuomotor Policies for Underwater Active Target Tracking Via Imitation Learning and Diffusion Model"
 collection: publications
 permalink: /publication/j1
 date: 2026-01-01
