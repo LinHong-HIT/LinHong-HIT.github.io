@@ -25,6 +25,9 @@ main:
 
   - title: "Services"
     url: /#services
+
+  - title: "Awards"
+    url: /#awards
         
   - title: "Blog Posts"
     url: /year-archive/
