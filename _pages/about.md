@@ -68,8 +68,3 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - Example: Reviewer for **IEEE T-RO / ICRA / IROS**.
 - Example: Session chair / organizer / committee member.
 
-<h2 id="blog-posts">Blog Posts</h2>
-
-{% for post in site.posts limit:5 %}
-  {% include archive-single.html %}
-{% endfor %}
