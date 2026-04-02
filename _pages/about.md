@@ -1,4 +1,3 @@
-
 ---
 permalink: /
 title: "Biography"
@@ -52,6 +51,10 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 
 <h2 id="talks">Talks</h2>
 
+{% if site.talkmap_link == true %}
+<p><a href="/talkmap.html">See a map of all the places I've given a talk.</a></p>
+{% endif %}
+
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
@@ -67,4 +70,3 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - Add your professional services here.
 - Example: Reviewer for **IEEE T-RO / ICRA / IROS**.
 - Example: Session chair / organizer / committee member.
-
