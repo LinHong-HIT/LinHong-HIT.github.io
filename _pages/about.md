@@ -57,14 +57,14 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - Example: Reviewer for **IEEE T-RO / ICRA / IROS**.
 - Example: Session chair / organizer / committee member.
 
-<div id="awards"></div>
+<h2 id="awards">Awards</h2>
 
-## Awards
-
-- **2025** Best Paper Award, The 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
-- **2024** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
-- **2023** National Scholarship for Graduate Students.
-- **2022** Outstanding Ph.D. Student Award at Harbin Institute of Technology.
-- **2021** Outstanding Student Cadre Award at Harbin Institute of Technology.
-- **2020** National Scholarship for Graduate Students.
+<ul>
+  <li><strong>2025</strong> Best Paper Award, The 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).</li>
+  <li><strong>2024</strong> Outstanding Ph.D. Student Award at Harbin Institute of Technology.</li>
+  <li><strong>2023</strong> National Scholarship for Graduate Students.</li>
+  <li><strong>2022</strong> Outstanding Ph.D. Student Award at Harbin Institute of Technology.</li>
+  <li><strong>2021</strong> Outstanding Student Cadre Award at Harbin Institute of Technology.</li>
+  <li><strong>2020</strong> National Scholarship for Graduate Students.</li>
+</ul> National Scholarship for Graduate Students.
 
