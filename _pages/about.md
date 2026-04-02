@@ -66,5 +66,5 @@ My research interests are centered on marine robotics, robotic vision, and deep 
   <li><strong>2022</strong> Outstanding Ph.D. Student Award at Harbin Institute of Technology.</li>
   <li><strong>2021</strong> Outstanding Student Cadre Award at Harbin Institute of Technology.</li>
   <li><strong>2020</strong> National Scholarship for Graduate Students.</li>
-</ul> National Scholarship for Graduate Students.
+</ul> 
 
