@@ -54,13 +54,15 @@ html {
   scroll-margin-top: 90px;
 }
 
-/* publication list without images */
+/* publication list without images, full width */
 .publication__item {
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .publication__layout {
-  display: block;
+  display: block !important;
+  width: 100%;
 }
 
 .publication__image {
@@ -69,9 +71,11 @@ html {
 
 .publication__body,
 .publication__body--full {
-  width: 100%;
-  max-width: 100%;
-  flex: 1 1 100%;
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  flex: none !important;
 }
 
 .publication__title {
@@ -100,14 +104,25 @@ html {
   white-space: nowrap;
 }
 
+.page__content .publication__item,
+.page__content .publication__layout,
+.page__content .publication__body,
+.page__content .publication__body--full {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 @media (max-width: 768px) {
   .publication__layout {
-    display: block;
+    display: block !important;
+    width: 100%;
   }
 
   .publication__body,
   .publication__body--full {
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex: none !important;
   }
 }
