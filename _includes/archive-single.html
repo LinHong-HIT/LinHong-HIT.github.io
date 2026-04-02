@@ -45,36 +45,36 @@
 
         <p class="publication__links">
           {% assign has_link = false %}
-
+        
           {% if post.paperurl and post.paperurl != "" %}
             <a href="{{ post.paperurl }}">PDF</a>
             {% assign has_link = true %}
           {% endif %}
-
+        
           {% if post.codeurl and post.codeurl != "" %}
-            {% if has_link %} | {% endif %}
+            {% if has_link %}<span class="pub-sep">|</span>{% endif %}
             <a href="{{ post.codeurl }}">Code</a>
             {% assign has_link = true %}
           {% elsif post.bibtexurl and post.bibtexurl != "" %}
-            {% if has_link %} | {% endif %}
+            {% if has_link %}<span class="pub-sep">|</span>{% endif %}
             <a href="{{ post.bibtexurl }}">Code</a>
             {% assign has_link = true %}
           {% endif %}
-
+        
           {% if post.videourl and post.videourl != "" %}
-            {% if has_link %} | {% endif %}
+            {% if has_link %}<span class="pub-sep">|</span>{% endif %}
             <a href="{{ post.videourl }}">Video</a>
             {% assign has_link = true %}
           {% endif %}
-
+        
           {% if post.slidesurl and post.slidesurl != "" %}
-            {% if has_link %} | {% endif %}
+            {% if has_link %}<span class="pub-sep">|</span>{% endif %}
             <a href="{{ post.slidesurl }}">Slides</a>
             {% assign has_link = true %}
           {% endif %}
-
+        
           {% if post.url %}
-            {% if has_link %} | {% endif %}
+            {% if has_link %}<span class="pub-sep">|</span>{% endif %}
             <a href="{{ base_path }}{{ post.url }}">Details</a>
           {% endif %}
         </p>
