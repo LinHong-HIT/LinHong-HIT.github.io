@@ -6,7 +6,7 @@ date: 2025-01-01
 authors: "Lin Hong, Xin Wang*, and Desheng Zhang"
 venue: "Ocean Engineering 339 (2025): 122103"
 image: "/images/OE.png"
-paperurl: ""
+paperurl: "https://www.sciencedirect.com/science/article/pii/S0029801825017871"
 bibtexurl: ""
 videourl: ""
 ---
