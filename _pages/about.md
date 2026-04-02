@@ -1,11 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Biography"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Lin Hong is a Postdoctoral Research Fellow at the Hong Kong University of Science and Technology (HKUST), collaborating with Prof. Fumin Zhang. Lin Hong obtained his Ph.D. degree in Robotic Engineering from the Harbin Institute of Technology (Shenzhen), under the supervision of Prof. Xin Wang. From 2023 to 2024, he was at the Chair of Robotics, AI, and Real-Time Systems at the Technical University of Munich, working under the guidance of Prof. Alois Knoll. Lin Hong's research interests are centered on robotic vision and control of marine robots.
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
