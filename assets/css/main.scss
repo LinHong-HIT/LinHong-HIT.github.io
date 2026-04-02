@@ -42,56 +42,36 @@
     "vendor/font-awesome/brands"
 ;
 
-/* 平滑滚动 */
+/* smooth scrolling for one-page navigation */
 html {
   scroll-behavior: smooth;
 }
 
-/* 锚点定位时避免被顶部导航遮住 */
+/* prevent anchor targets from being covered by the fixed header */
 .page__content h2[id],
 .page__content h3[id],
 .page__content div[id] {
   scroll-margin-top: 90px;
 }
 
-/* publications */
+/* publication list without images */
 .publication__item {
   margin-bottom: 2rem;
 }
 
 .publication__layout {
-  display: flex;
-  align-items: stretch;
-  gap: 1.5rem;
-}
-
-/* 左右各占一半 */
-.publication__image,
-.publication__body {
-  flex: 0 0 calc(50% - 0.75rem);
-  max-width: calc(50% - 0.75rem);
+  display: block;
 }
 
 .publication__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none !important;
 }
 
-.publication__image img {
+.publication__body,
+.publication__body--full {
   width: 100%;
-  height: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  display: block;
-  border-radius: 8px;
-}
-
-/* 右侧文字区域 */
-.publication__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  max-width: 100%;
+  flex: 1 1 100%;
 }
 
 .publication__title {
@@ -120,21 +100,14 @@ html {
   white-space: nowrap;
 }
 
-/* 小屏幕自适应 */
 @media (max-width: 768px) {
   .publication__layout {
-    flex-direction: column;
+    display: block;
   }
 
-  .publication__image,
-  .publication__body {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .publication__image img {
+  .publication__body,
+  .publication__body--full {
     width: 100%;
-    height: auto;
-    aspect-ratio: auto;
+    max-width: 100%;
   }
 }
