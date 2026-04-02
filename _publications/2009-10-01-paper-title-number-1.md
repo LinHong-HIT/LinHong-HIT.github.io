@@ -5,7 +5,6 @@ permalink: /publication/j1
 date: 2026-01-01
 authors: "Ao Meng†, Lin Hong†, Yunxuan Feng, Zijie Ling, Xin Li, Liang Hu*"
 venue: "IEEE Robotics and Automation Letters (2026)"
-excerpt: "Accepted."
 image: "/images/publications/j1.jpg"
 paperurl: ""
 bibtexurl: ""
