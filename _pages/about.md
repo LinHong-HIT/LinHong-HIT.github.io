@@ -49,9 +49,9 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 <h2 id="teaching">Student Supervision</h2>
 
 <ul>
-  <li><strong>2025</strong> Student Name, Master Student, TUM. Research topic: Marine robotics / underwater perception.</li>
+  <li><strong>2025</strong> Bozkurt Mürüvvet, Master Student, TUM. Research topic: Exploring Mixed Gaussian Model for Improved Underwater Instance Segmentation.</li>
   <li><strong>2024</strong> Moke Guo, Master Student, TUM. Research topic: Autonomous UAV Trajectory Tracking using Reinforcement Learning.</li>
-  <li><strong>2024</strong> Qun Guo, Master Student, TUM. Research topic: Underwater salient object detection.</li>
+  <li><strong>2024</strong> Qun Guo, Master Student, TUM. Research topic: Safety-Critical Control with Saliency Detection for Mobile Robots in Dynamic Multi-Obstacle Environments.</li>
 </ul>
 
 <h2 id="services">Services</h2>
