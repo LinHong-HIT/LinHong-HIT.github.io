@@ -18,10 +18,11 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 
 <h2 id="news">News</h2>
 
-- **03/26** 👏👏👏 One paper was accepted by **OCEANS 2026** as an oral paper. I will present it in Sanya.
-- **03/26** 👏👏👏 One paper was accepted by **ICRA 2026**.
-- **02/26** 👏👏👏 One paper was accepted by **IEEE Robotics and Automation Letters**.
-- 
+- **03/26** 👏 One paper was accepted by **OCEANS 2026** as an oral paper. I will present it in Sanya.
+- **03/26** 👏 One paper was accepted by **ICRA 2026**.
+- **02/26** 👏 One paper was accepted by **IEEE Robotics and Automation Letters**.
+- **10/25** 👏 One paper was accepted by **Annual Review of Control, Robotics, and Autonomous Systems**.
+- **10/25** 👏 One paper was accepted by **ICIRA 2025**, it also win the **Best Paper Award** 🏆.
 
 <h2 id="publications">Publications</h2>
 
