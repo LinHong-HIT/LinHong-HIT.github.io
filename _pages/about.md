@@ -22,7 +22,8 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 - **03/26** 👏 One paper was accepted by **ICRA 2026**.
 - **02/26** 👏 One paper was accepted by **IEEE Robotics and Automation Letters**.
 - **10/25** 👏 One paper was accepted by **Annual Review of Control, Robotics, and Autonomous Systems**.
-- **10/25** 👏 One paper was accepted by **ICIRA 2025**, it also win the **Best Paper Award** 🏆.
+- **08/25** 👏 One paper was accepted by **ICIRA 2025**, it also win the **Best Paper Award** 🏆.
+- **07/25** 👏 One paper was accepted by **Ocean Engineering**.
 
 <h2 id="publications">Publications</h2>
 
