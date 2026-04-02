@@ -9,4 +9,3 @@ image: "/images/RAL.png"
 paperurl: ""
 bibtexurl: ""
 videourl: ""
----
