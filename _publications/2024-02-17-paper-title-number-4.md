@@ -6,7 +6,7 @@ date: 2023-01-01
 authors: "Lin Hong, Xin Wang*, Gan Zhang, Ming Zhao"
 venue: "IEEE Transactions on Image Processing 34 (2023): 1602-1615"
 excerpt: "IF=13.7, Top, JCR Q1, Highly Cited Papers."
-image: "/images/publications/j4.jpg"
+image: "/images/TC-USOD.png"
 paperurl: ""
 bibtexurl: ""
 videourl: ""
