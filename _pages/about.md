@@ -18,6 +18,7 @@ My research interests are centered on marine robotics, robotic vision, and deep 
 
 <h2 id="news">News</h2>
 
+- **07/26** 👏 It was an honor to serve as a session chair at **ICIRA 2026**.
 - **04/26** 👏 One paper was accepted by **IEEE/CAA Journal of Automatica Sinica**.
 - **03/26** 👏 One paper was accepted by **OCEANS 2026** as an oral paper. I will present it in Sanya.
 - **03/26** 👏 One paper was accepted by **ICRA 2026**.
