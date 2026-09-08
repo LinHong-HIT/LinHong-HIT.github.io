@@ -11,7 +11,7 @@ redirect_from:
 <div id="biography"></div>
 
 I am a Research Assistant Professor in the Department of Electrical and Computer Engineering, the Hong Kong University of Science and Technology (HKUST). I obtained my Ph.D. degree in Robotic Engineering from the Harbin Institute of Technology (Shenzhen), under the supervision of [Prof. Xin Wang](https://homepage.hit.edu.cn/wangxin) in 2024. From 2023 to 2024, I had joint training at the Chair of Robotics, AI, and Real-Time Systems at the Technical University of Munich, Germany, working under the guidance of [Chair Professor Alois Knoll](https://www.professoren.tum.de/en/knoll-alois-christian/). 
-From 2025-2026, I was a Postdoctoral Research Fellow in Cheng Kar-Shun Robotics Institute (CKSRI) and , collaborating with [Chair Professor Fumin Zhang](https://fumin-home.hkust.edu.hk/).
+From 2025-2026, I was a Postdoctoral Research Fellow in Cheng Kar-Shun Robotics Institute (CKSRI) and the Department of Electrical and Computer Engineering, HKUST, collaborating with [Chair Professor Fumin Zhang](https://fumin-home.hkust.edu.hk/).
 I received National Scholarships for Graduate Students in 2020 and 2023 and won the Best Paper Award at the 18th International Conference on Intelligent Robotics and Applications (ICIRA 2025).
 
 My research interests are centered on marine robotics, robotic vision, underwater multimodal perception, and sensorimotor policy learning. Welcome to contact me for academic collaboration in the field of marine robotics at eelinhong@ust.hk.
